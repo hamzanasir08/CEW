@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-    char sentence[]="My name is Talha";
+    char sentence[]="My name is Hamza";
     for (int i=0;i<strlen(sentence);i++){
         if (sentence[i]>='a' && sentence[i]<='z'){
             sentence[i]=sentence[i]-32;
